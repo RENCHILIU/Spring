@@ -1,0 +1,14 @@
+#TODO: convert properties file to yml file makes you more flexible to identify the changes
+#TODO: e.g below you can just specify the debug level for the sql
+logging:
+  level:
+    sql: debug
+
+
+#TODO: below will let hibernate to load the data.sql
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.format_sql: true #TODO: make the sql in hibernate be more clear
