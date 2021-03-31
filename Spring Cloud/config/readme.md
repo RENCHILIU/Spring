@@ -1,1 +1,1 @@
-**application.properties** is the common file for all env and app 
+**application.properties** is the _global_ file for all env and app 
