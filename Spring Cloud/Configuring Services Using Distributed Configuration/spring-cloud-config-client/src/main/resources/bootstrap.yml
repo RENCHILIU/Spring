@@ -1,0 +1,33 @@
+#TODO: ====== discovery first strategy ======
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ # TODO: make this config server connect with eureka discovery server
+
+
+spring:
+  application:
+    name: config-client-app #TODO: you have config-client-app-prod.properties in the cloud
+  cloud:
+    config:
+      discovery:
+        enabled: true #TODO: this is the discovery first strategy
+        service-id: configserver  #TODO: the name should be the same as the "spring cloud config Server"
+#TODO: ====== config first strategy ======
+# disable @EnableDiscoveryClient
+# disable spring-cloud-starter-netflix-eureka-client POM
+# delete eureka-client dependencies
+
+#spring:
+#  application:
+#    name: config-client-app
+#  cloud:
+#    config:
+#      uri: http://localhost:8888 # TODO: the port of spring cloud config server
+
+#TODO: POST http://localhost:8080/actuator/refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
