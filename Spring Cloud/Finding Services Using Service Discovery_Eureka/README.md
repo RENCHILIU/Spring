@@ -33,7 +33,7 @@ Eureka Server + Eureka Client + Other
 - Service / Service Provider
 - Client / Service Consumer 
 
-![image.png](http://renchiliu.com/upload/2021/03/image-bb9cbd92c1b743dd8bce840c2ba8bb65.png)
+![Screen Shot 20210330 at 12.30.32 PM.png](https://github.com/RENCHILIU/Spring/blob/main/Spring%20Cloud/Finding%20Services%20Using%20Service%20Discovery_Eureka/image-bb9cbd92c1b743dd8bce840c2ba8bb65.png?raw=true)
 
 1. Service registers location
 2. Client looks up service location
@@ -48,7 +48,7 @@ Eureka Server + Eureka Client + Other
 
 ## Healthy / heartbeat 
 
-![Screen Shot 20210330 at 12.30.32 PM.png](https://github.com/RENCHILIU/Spring/blob/main/Spring%20Cloud/Finding%20Services%20Using%20Service%20Discovery_Eureka/image-bb9cbd92c1b743dd8bce840c2ba8bb65.png?raw=true)
+
 
 ![Screen Shot 20210330 at 12.32.36 PM.png](https://github.com/RENCHILIU/Spring/blob/main/Spring%20Cloud/Finding%20Services%20Using%20Service%20Discovery_Eureka/Screen%20Shot%202021-03-30%20at%2012.30.32%20PM-45656bf387c54556a77e93aa5df330ec.png?raw=true)
 
