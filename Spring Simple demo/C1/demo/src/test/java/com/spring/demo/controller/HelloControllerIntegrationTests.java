@@ -35,7 +35,7 @@ public class HelloControllerIntegrationTests {
 
     @Test
     public void testHelloWithName() throws Exception {
-        mvc.perform(get("/hello").param("name","Renchi").accept(MediaType.TEXT_PLAIN))
+        mvc.perform(get("/hello").param("name", "Renchi").accept(MediaType.TEXT_PLAIN))
                 .andExpect(status().isOk())
                 .andExpect(view().name("hello"))
                 .andExpect(model().attribute("user", is("Renchi")));

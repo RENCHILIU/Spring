@@ -29,8 +29,7 @@ public class DiscoveryClientApplication {
         SpringApplication.run(DiscoveryClientApplication.class, args);
     }
 
-    
-    
+
     @RequestMapping("/")
     public String callService() {
         RestTemplate restTemplate = restTemplateBuilder.build();

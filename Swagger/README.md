@@ -1,5 +1,7 @@
 # Swagger CodeGen
+
 [swagger-codegen-maven-plugin](https://github.com/swagger-api/swagger-codegen/tree/master/modules/swagger-codegen-maven-plugin)
+
 ```
 <plugin>
     <groupId>io.swagger</groupId>
@@ -22,15 +24,13 @@
 </plugin>
 ```
 
-
-
-
 ***REF***
 [openAPI plugin](https://www.jetbrains.com/help/idea/openapi.html)
 
-**Swagger Tools** 
+**Swagger Tools**
+
 - Swagger Editor
 - Swagger UI
-- Swagger Inspector 
+- Swagger Inspector
 - Swagger Codegen
 - SwaggerHub

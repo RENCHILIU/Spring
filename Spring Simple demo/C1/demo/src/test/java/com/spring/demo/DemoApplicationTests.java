@@ -39,7 +39,8 @@ public class DemoApplicationTests {
         System.out.println(nf.format(amount));
     }
 
-    @Autowired @Qualifier("anotherCurrencyFormat")
+    @Autowired
+    @Qualifier("anotherCurrencyFormat")
     private NumberFormat anotherNf;
 
     @Test

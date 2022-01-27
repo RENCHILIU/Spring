@@ -26,7 +26,7 @@ public class JdbcOfficerDAO implements OfficeDAO {
                     rs.getString("first_name"),
                     rs.getString("last_name"));
 
-    
+
     public JdbcOfficerDAO(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
         insertOfficer = new SimpleJdbcInsert(jdbcTemplate)

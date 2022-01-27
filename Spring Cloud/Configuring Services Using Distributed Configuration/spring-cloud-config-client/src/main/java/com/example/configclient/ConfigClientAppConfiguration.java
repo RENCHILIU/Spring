@@ -5,12 +5,12 @@ import org.springframework.stereotype.Component;
 
 
 /*
-* e.g:
-* some.property=profile specific value
-* some.other.property=profile specific value
-* */
+ * e.g:
+ * some.property=profile specific value
+ * some.other.property=profile specific value
+ * */
 @Component
-@ConfigurationProperties(prefix="some") //TODO: all the value start with "some"
+@ConfigurationProperties(prefix = "some") //TODO: all the value start with "some"
 public class ConfigClientAppConfiguration {
     public String getProperty() {
         return property;

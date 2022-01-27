@@ -13,7 +13,7 @@ public class HelloController {
             @RequestParam(defaultValue = "World", required = false) String name,
             Model model) {  //TODO: MVC model
 
-        model.addAttribute("user",name);
+        model.addAttribute("user", name);
         return "hello";
     }
 

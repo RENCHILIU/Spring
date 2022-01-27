@@ -59,7 +59,8 @@ public class Officer {
         this.last = last;
     }
 
-    public Officer() {}
+    public Officer() {
+    }
 
     public Officer(Integer id, Rank rank, String first, String last) {
         this.id = id;

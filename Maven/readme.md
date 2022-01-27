@@ -1,6 +1,7 @@
-# Maven 
+# Maven
 
 ## META-INF/MANIFEST.MF
+
 ```
     <build>
         <plugins>

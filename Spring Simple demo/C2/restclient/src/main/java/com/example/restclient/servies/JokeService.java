@@ -20,7 +20,7 @@ public class JokeService {
 
 
     public String getJoke(String first, String last) { //TODO: right click to generate Junit5 test func
-        String url = String.format("%s&firstName=%s&lastName=%s",BASE, first, last);
+        String url = String.format("%s&firstName=%s&lastName=%s", BASE, first, last);
         JokeResponse response = restTemplate.getForObject(url, JokeResponse.class);
         String output = "";
         if (response != null) {  //TODO: response.nn

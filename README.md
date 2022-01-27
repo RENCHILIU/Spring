@@ -1,9 +1,11 @@
-# Catalog 
+# Catalog
 
 ## Oreilly-Spring-Path
-  a demo project for Spring/Spring Boot
+
+a demo project for Spring/Spring Boot
 
 ## Spring Cloud
-- Netflix Eureka 
+
+- Netflix Eureka
 - Spring Cloud config
   

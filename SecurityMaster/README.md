@@ -3,12 +3,19 @@
 ## SQL
 
 ### AS - alias
+
 making the column headings more meaningful, and use the column alias for an expression
+
 ### utl_math.JARO_WINKLER_SIMILARITY
+
 [UTL_MATCH](https://docs.oracle.com/en/database/oracle/oracle-database/21/arpls/UTL_MATCH.html#GUID-7F579819-995A-4E92-862A-3E9ED13AA236)
+
 ### REGEXP_LIKE
+
 [Pattern-matching Conditions](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Pattern-matching-Conditions.html#GUID-3FA7F5AB-AC64-4200-8F90-294101428C26)
+
 ### SUB_STR
+
 ```
 The SUBSTR functions return a portion of char, beginning at character position, substring_length characters long. SUBSTR calculates lengths using characters as defined by the input character set. SUBSTRB uses bytes instead of characters. SUBSTRC uses Unicode complete characters. SUBSTR2 uses UCS2 code points. SUBSTR4 uses UCS4 code points.
 
@@ -20,11 +27,17 @@ If position is negative, then Oracle counts backward from the end of char.
 
 If substring_length is omitted, then Oracle returns all characters to the end of char. If substring_length is less than 1, then Oracle returns null.
 ```
+
 [ref](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/SUBSTR.html#GUID-C8A20B57-C647-4649-A379-8651AA97187E)
+
 ### CASE WHEN THEN
-The CASE statement goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause.
+
+The CASE statement goes through conditions and returns a value when the first condition is met (like an if-then-else
+statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it
+returns the value in the ELSE clause.
 
 If there is no ELSE part and no conditions are true, it returns NULL.
+
 ```
     WHEN condition1 THEN result1
     WHEN condition2 THEN result2
@@ -32,12 +45,17 @@ If there is no ELSE part and no conditions are true, it returns NULL.
     ELSE result
     END;
 ```
+
 ### ROWNUM
+
 ```
 For each row returned by a query, the ROWNUM pseudocolumn returns a number indicating the order in which Oracle selects the row from a table or set of joined rows. The first row selected has a ROWNUM of 1, the second has 2, and so on.
 ```
+
 [Sequence Pseudocolumns](https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/ROWNUM-Pseudocolumn.html#GUID-2E40EC12-3FCF-4A4F-B5F2-6BC669021726)
+
 ### ORDER BY ... DESC NULLS LAST
+
 ```
 Syntax
 ORDER BY { column-Name | ColumnPosition | Expression }
@@ -62,19 +80,25 @@ Specifies that NULL values should be returned before non-NULL values.
 NULLS LAST
 Specifies that NULL values should be returned after non-NULL values.
 ```
-[ref](https://docs.oracle.com/javadb/10.8.3.0/ref/rrefsqlj13658.html) 
+
+[ref](https://docs.oracle.com/javadb/10.8.3.0/ref/rrefsqlj13658.html)
+
 ## REGEX
+
 ```
 \s         // match space
 ```
 
 ## JDBC Template
+
 ### ResultSetExtractor
+
 extractData()
 
 ### ResultSet
 
 ### Stream
+
 collect()
 toList()
 

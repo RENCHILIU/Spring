@@ -23,7 +23,7 @@ class JokeServiceTest {
 
     @Test
     void getJoke() {
-        String joke = servie.getJoke("renchi","liu");
+        String joke = servie.getJoke("renchi", "liu");
         logger.info(joke);
         assertTrue(joke.contains("renchi") || joke.contains("liu"));
     }

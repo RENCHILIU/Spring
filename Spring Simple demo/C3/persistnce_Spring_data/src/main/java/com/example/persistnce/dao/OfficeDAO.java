@@ -7,9 +7,14 @@ import java.util.Optional;
 
 public interface OfficeDAO {
     public Optional<Officer> findById(Integer id);
+
     public Officer save(Officer officer);
+
     public List<Officer> findAll();
+
     public long count();
+
     public void delete(Officer officer);
+
     public boolean existsById(Integer id);
 }

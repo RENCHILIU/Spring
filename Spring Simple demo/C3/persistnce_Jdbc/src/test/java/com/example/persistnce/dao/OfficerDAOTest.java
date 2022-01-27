@@ -20,7 +20,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-@Transactional //TODO: dealing with DB ,this is important
+@Transactional
+        //TODO: dealing with DB ,this is important
 //TODO: if you don't have Transactional, the delete test func will influence the rest testing func
 //Check doc for Transactional type : isolation/ propagation
 class OfficerDAOTest {

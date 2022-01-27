@@ -1,11 +1,9 @@
-## Spring security 
+## Spring security
+
 ### Authentication type
 
-- Basic authentication
-username:password
-base 64 encode 
+- Basic authentication username:password base 64 encode
 
-- For authentication 
-login + password 
+- For authentication login + password 
 
 

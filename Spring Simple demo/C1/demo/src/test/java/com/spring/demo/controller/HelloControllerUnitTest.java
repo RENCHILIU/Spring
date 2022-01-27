@@ -4,6 +4,7 @@ import com.spring.demo.HelloController;
 import org.junit.jupiter.api.Test;
 import org.springframework.ui.Model;
 import org.springframework.validation.support.BindingAwareModelMap;
+
 import static org.junit.Assert.*;
 
 //TODO: use BindingAwareModelMap + Junit  to mock the MVC model
